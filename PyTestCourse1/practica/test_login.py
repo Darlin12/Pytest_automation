@@ -2,6 +2,7 @@ import time
 
 from selenium import webdriver
 from funciones.login_demoguru import login
+
 def test_login():
     driver = webdriver.Chrome(executable_path='C:\chromedriver.exe')
     driver.maximize_window()
