@@ -28,8 +28,10 @@ def send_message(driver, cc, subject, message):
 
     time.sleep(3)
 
-    msgAssertion = driver.find_element(By.XPATH, "//div[@role='alert']//div[@class='vh']").text()
-    print(msgAssertion)
+    msgAssertion = driver.find_element(By.XPATH, "//span[@class='bAq']").text
+    assert msgAssertion == 'Mensaje enviado'
+
+    #print('Este fue el mensaje:', msgAssertion)
 
     time.sleep(10)
 
