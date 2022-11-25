@@ -19,7 +19,7 @@ def test_sendEmail():
 
     cc = 'darlinmanuelcasado@gmail.com' #Add here the email address to which you are gonna send the email to
     subject = 'automated message by Darlin' #Add here the subject of the email
-    message = 'hey Darlin this is email message i told you about'  #Add here the message of your email
+    message = 'this second one is for a video im recording'  #Add here the message of your email
     #Function underneath
     send_message(driver, cc, subject, message)
 
