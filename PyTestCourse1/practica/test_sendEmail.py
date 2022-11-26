@@ -2,7 +2,6 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver import Keys
-
 from funciones.login_to_google import login
 from funciones.send_message import send_message
 from selenium.webdriver.common.by import By
