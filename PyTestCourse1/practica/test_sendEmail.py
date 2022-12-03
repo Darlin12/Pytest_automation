@@ -16,7 +16,7 @@ def test_sendEmail():
     #function underneath
     login(driver, email, password)
 
-    cc = 'darlinmanuelcasado@gmail.com' #Add here the email address to which you are gonna send the email to
+    cc = 'emanuel.felizmendez@gmail.com' #Add here the email address to which you are gonna send the email to
     subject = 'automated message by Darlin' #Add here the subject of the email
     message = 'this second one is for a video im recording'  #Add here the message of your email
     #Function underneath
